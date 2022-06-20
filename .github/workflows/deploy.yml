@@ -16,5 +16,5 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
         with:
           heroku_api_key: ${{secrets.HEROKU_USER_API_KEY}}
-          heroku_app_name: demo-user-aej
+          heroku_app_name: "demo-user-aej"
           heroku_email: "vionamahdiya@gmail.com"
